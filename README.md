@@ -85,4 +85,4 @@ This project offers a concise and visual look into the **AI job market landscape
 ---
 
 ### 👩‍💻 Created by Atika Arifiana  
-🔗 [LinkedIn](https://linkedin.com/in/atika-arifiana) | [GitHub](https://github.com/atikfriana) | [Portfolio](https://bit.ly/PortfolioAtikaArifiana)
+🔗 [LinkedIn](https://linkedin.com/in/atika-arifiana) | [GitHub](https://github.com/atikfriana) | [Portfolio]
