@@ -1,42 +1,88 @@
-AI Job Market Insights: A Data Analysis Project
-Introduction
-This repository contains a data analysis project that explores the AI job market using a dataset from a local file ai_job_market_insights.csv. The project aims to provide insights into the job market by analyzing and visualizing the dataset using Python libraries Pandas and Matplotlib.
+# 🤖 AI Job Market Insights: A Data Analysis Project
 
-Dataset Description
-The dataset contains information about AI jobs, including job titles, domains, and salaries. The dataset is described below:
+📊 **A project that explores insights from the AI job market using data visualization and summary statistics.**
 
-Number of rows: [44]
-Number of columns: [5]
+---
 
-Methodology
-The project involves the following steps:
+## 📂 Dataset Description
 
-Data visualization: A bar chart is created to show the top 20 salaries by job title, and a pie chart is created to show the distribution of job categories.
+- **Dataset file:** `ai_job_market_insights.csv`
+- **Rows:** 44
+- **Columns:** 5
+- **Source:** [Kaggle - AI-Powered Job Market Insights](https://www.kaggle.com/datasets/uom190346a/ai-powered-job-market-insights)
 
-Data analysis: Summary statistics of the dataset are calculated using the describe() method.
+---
 
-Results
-The project provides the following insights into the AI job market:
+## 🔍 Methodology
 
-Salary Bar Chart: A bar chart showing the salaries by job title with domain.
-Distribution of Job Categories: A pie chart showing the distribution of job categories.
-Summary statistics: Summary statistics of the dataset, including mean, median, and standard deviation of salaries.
+This project involves:
 
+1. 📈 Data visualization:
+   - Bar chart for **Top 20 Salaries by Job Title**
+   - Pie chart for **Distribution of Job Categories**
 
-Code
-The code is written in Python and uses the following libraries:
+2. 📊 Data analysis:
+   - Summary statistics using `pandas.describe()`
 
-Pandas for data manipulation and analysis
-Matplotlib for data visualization
+---
 
-The code is organized into the following sections:
+## 📈 Visualizations
 
-Data loading and cleaning
-Data visualization
-Analysis
+### 🪙 Salary Bar Chart
+Top 20 job titles with highest salaries (with domain info):
 
-Conclusion
-This project provides a comprehensive analysis of the AI job market using data visualization and summary statistics. The insights gained from this project can be useful for individuals and organizations interested in the AI job market.
+![Salary Chart](chart/salary_bar_chart.png)
 
-References
-AI-Powered Job Market Insights - https://www.kaggle.com/datasets/uom190346a/ai-powered-job-market-insights
+---
+
+### 🧠 Distribution of Job Categories
+
+A pie chart showing how AI job categories are distributed:
+
+![Job Categories Pie](chart/job_pie_chart.png)
+
+---
+
+## 🧪 Results Summary
+
+- **Salary Insights:**
+  - Shows which job titles and domains have higher salary ranges
+- **Job Categories:**
+  - Distribution across different AI fields
+- **Summary Stats:**
+  - Mean, median, and standard deviation of salary data
+
+---
+
+## 💻 Tools Used
+
+- `pandas` → Data loading, cleaning, analysis
+- `matplotlib` → Chart visualization
+- Python 3.10+ / Jupyter Notebook
+
+---
+
+## 📁 Code Sections
+
+- 📥 Data loading & cleaning
+- 📊 Data visualization
+- 📈 Summary analysis
+
+> 📌 All code is included in `AI_Job_Analysis.ipynb`
+
+---
+
+## ✅ Conclusion
+
+This project offers a concise and visual look into the **AI job market landscape**, providing useful insights for job seekers, employers, and researchers in tech fields.
+
+---
+
+## 📚 References
+
+- Kaggle Dataset: [AI-Powered Job Market Insights](https://www.kaggle.com/datasets/uom190346a/ai-powered-job-market-insights)
+
+---
+
+### 👩‍💻 Created by Atika Arifiana  
+🔗 [LinkedIn](https://linkedin.com/in/atika-arifiana) | [GitHub](https://github.com/atikfriana) | [Portfolio](https://bit.ly/PortfolioAtikaArifiana)
